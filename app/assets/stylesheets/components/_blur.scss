@@ -1,0 +1,21 @@
+#blur {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 0vh;
+  width: 0vw;
+  background: rgb(30, 30, 30);
+  opacity: 0;
+}
+
+.blur-active {
+  opacity: 0.5 !important;
+  z-index: 10;
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+.body-fixe {
+  overflow: hidden !important;
+  // height: 100%;
+}

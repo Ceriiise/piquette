@@ -1,0 +1,241 @@
+#bottle_charts1{
+  color: #4F4F4F;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 100%;
+}
+
+.card-link {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+
+.card-link-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+
+/* Ma cave */
+
+.cellar-card {
+  width: 350px;
+  height: 350px;
+  // border-radius: 10px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 22px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+.home-cellar-picto {
+  // display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-picto-glass {
+  border: solid 6px lightgrey;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.fa-wine-glass{
+  color: grey;
+}
+
+.cellar-card h3 {
+  margin-top: 10px;
+}
+
+/* Mes dégustations */
+
+.review-card {
+  width: 350px;
+  height: 350px;
+  // border-radius: 10px;
+  background-color: white;
+  margin: auto;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+/* Recommandations */
+.reco-card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  margin-bottom: calc(100vw * 0.05);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  padding-bottom: 0px;
+  position: relative;
+}
+.reco-card1 {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  margin-bottom: calc(100vw * 0.05);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.reco-card {
+  text-align: center;
+}
+
+.reco-btn {
+  color: white;
+  text-align: center;
+}
+
+.nbr_bottle{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.total_bottle{
+  width: 70px;
+  height: 70px;
+}
+
+.fa-wine-bottle{
+  transform: rotate(-45deg)
+}
+
+.bottle-home {
+  width: 140px;
+  height: 140px;
+  background-color: grey;
+}
+
+.num-bottle-home {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+}
+
+.x-bottle-home {
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
+
+.picto-bottle-home {
+  font-size: 60px;
+}
+
+.color-bottle-home {
+
+}
+
+.xx-nbr_bottle{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.bg-grey{
+  background-color: grey;
+}
+.bg-red{
+  background-color: red;
+}
+.bg-green{
+  background-color: green;
+}
+.bg-blue{
+  background-color: blue;
+}
+.xx-bottle-home{
+  flex: 0 0 150px;
+  height: 140px;
+  margin-bottom: 10px;
+}
+.xx-bottle-home-top{
+  height: 66%;
+  h3{
+    margin: 0;
+  }
+}
+.xx-bottle-home-bottom{
+  height: 34%;
+}
+.flex-centerer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-confirm-btn-1 {
+
+  width: 50vh;
+    box-sizing: none !important;
+    margin: calc(100vw * 0.05);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: "Baloo Bhai";
+    font-size: 24px;
+    background: linear-gradient(108.27deg, #FFAF00 17.42%, #FFC850 88.86%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-style: none !important;
+    padding: 15px 20px;
+}
+.bottle-icon{
+  margin-right: 19px;
+}
+.bottle-icon-2{
+  margin-right:14px;
+}
+.bottle-icon-3 {
+  margin-right: 23px;
+}
+.bottle-home-icon{
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-around;
+}
+.subtitle{
+font-size:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

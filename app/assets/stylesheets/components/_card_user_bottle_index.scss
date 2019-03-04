@@ -1,0 +1,189 @@
+.piquette-wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.piquette-card {
+  background: white;
+  border-radius: 7px;
+  padding: 10px;
+  width: 90vw;
+  margin-bottom: calc(100vw * 0.05);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.piquette-card-title {
+  text-align: center;
+}
+
+.piquette-card-content {
+  display: flex;
+  justify-content: space-between;
+  p {
+    margin-bottom: 2px;
+  }
+}
+
+.piquette-card-content-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Rouge {
+  background: linear-gradient(147.09deg, #CE003C 5.2%, #9C1952 91.33%) !important;
+}
+
+.Blanc {
+  background: linear-gradient(147.09deg, #F9F8EB 5.2%, #efcf6d 91.33%) !important;
+}
+
+.Rose {
+  background: linear-gradient(147.09deg, #ffe38e 5.2%, #e49292 5.21%, #dc5b66 91.33%) !important;
+}
+
+.Effervescent {
+  background-image: image-url("sparkling.svg") !important;
+  background-position: center;
+}
+
+.piquette-card-content-item-color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #BDBDBD;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .container_user_bottle_index {
+//   margin-top: 10px;
+//   display: flex;
+//   width: 100vw;
+//   flex-direction: column;
+//   justify-content: center;
+// }
+
+// .card_user_bottle_index {
+//   background-color: white;
+//   border-radius: 3px;
+//   box-shadow: 0 0 10px lightgrey;
+//   height: 100px;
+//   width: 95vw;
+//   margin: 5px;
+//   padding: 5px;
+//   position: relative;
+// }
+
+// .content_card_user_bottle_index {
+//   width: 100%;
+//   z-index: 1;
+//   display: flex;
+// }
+
+// .infos_wine_left {
+//   flex-direction: columns;
+//   flex-grow: 1;
+//   text-align: left;
+
+//   span {
+//     font-family: $headers-font;
+//     font-size: 14px;
+//     margin: 1px;
+//   };
+//   h2 {
+//     font-family: $body-font;
+//     font-size: 12px;
+//     margin: 1px;
+//   };
+//   h3 {
+//     font-family: $body-font;
+//     font-size: 12px;
+//     margin: 1px;
+//   };
+// }
+
+// .infos_wine_right {
+//   display: flex;
+//   position: absolute;
+//   right: 5px;
+//   top: 5px;
+//   h3 {
+//     font-family: $body-font;
+//     font-size: 12px;
+//     margin: 1px;
+//   };
+// }
+
+// .color-background {
+//   font-family: $headers-font !important;
+//   font-size: 50px;
+//   opacity: 0.3;
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: flex-end;
+//   position: absolute;
+//   right: 5px;
+//   bottom: 5px;
+//   margin-bottom: -12px;
+
+// }
+
+// .rouge {
+//   color: $red;
+// }
+
+// .rose {
+//   color: $pink;
+// }
+
+// .blanc {
+//   color: $yellow;
+// }
+
+// .advice-keep {
+//   background-color: $yellow;
+//   padding: 2px;
+//   color: white;
+//   font-family: $headers-font;
+//   font-size: 10px;
+
+// }
+
+// .advice-late {
+//   background-color: $red;
+//   padding: 2px;
+//   color: white;
+//   font-family: $headers-font;
+//   font-size: 10px;
+// }
+
+// .advice-drink {
+//   background-color: $green;
+//   padding: 2px;
+//   color: white;
+//   font-family: $headers-font;
+//   font-size: 10px;
+// }
+

@@ -1,0 +1,13 @@
+<div class="piquette-header">
+  <%= image_tag "wine.svg", alt: "ma wishlist", class: 'bottle-icon-2' %><h1>Ma wishlist</h1>
+</div>
+
+<div class="container_user_bottle_index">
+  <% @wishes.each do |wish| %>
+    <div type="button" data-toggle="modal" class="clickable" data-target="#modal<%= wish.id %>">
+      <%= render "wishes/card_wishlist", wish: wish %>
+    </div>
+    <%= render "wishes/modal_wishlist", wish: wish %>
+  <% end %>
+</div>
+

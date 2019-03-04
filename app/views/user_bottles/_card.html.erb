@@ -1,0 +1,39 @@
+<div class="piquette-wrapper">
+
+  <div class="piquette-card">
+
+    <div class="piquette-card-title">
+      <h3><%= user_bottle.title.capitalize %> <%= user_bottle.year %></h3>
+      <h4><%= user_bottle.winery.name.upcase%></h4>
+      <p><%= user_bottle.region.name%></p>
+    </div>
+
+    <div class="piquette-card-content">
+
+      <div class="piquette-card-content-item">
+        <p><strong>Couleur</strong></p>
+        <div class="piquette-card-content-item-color <%= user_bottle.color.name %>"></div>
+      </div>
+
+      <div class="piquette-card-content-item">
+        <p><strong>Quantité</strong></p>
+        <h5><%= UserBottle.find_by(bottle_id: user_bottle.id).quantity %></h5>
+      </div>
+
+      <div class="piquette-card-content-item">
+        <p><strong>Maturation</strong></p>
+        <% if user_bottle.best_after <= Date.today.year && user_bottle.best_before > Date.today.year %>
+          <h5>👍</h5>
+        <% elsif user_bottle.best_before < Date.today.year %>
+          <h5>👎</h5>
+        <% elsif user_bottle.best_after > Date.today.year %>
+          <h5>✋</h5>
+        <% end %>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+

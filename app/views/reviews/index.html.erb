@@ -1,0 +1,13 @@
+<div class="piquette-header">
+
+  <%= image_tag "notebook.svg", alt: "mes dégustations", class: 'bottle-icon-3' %><h1>Mon carnet</h1>
+</div>
+
+<div class="container_user_bottle_index">
+  <% @reviews.each do |review| %>
+    <div type="button" data-toggle="modal" class="clickable" data-target="#modal<%= review.id %>">
+      <%= render "reviews/card_review", review: review %>
+    </div>
+    <%= render "reviews/modal_review", review: review %>
+  <% end %>
+</div>
